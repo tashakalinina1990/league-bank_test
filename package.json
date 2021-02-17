@@ -1,0 +1,54 @@
+{
+  "name": "league-bank",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode=production",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.12.13",
+    "@babel/preset-react": "7.12.13",
+    "babel-loader": "8.2.2",
+    "css-loader": "5.0.1",
+    "file-loader": "6.2.0",
+    "sass-loader": "11.0.0",
+    "style-loader": "2.0.0",
+    "webpack": "5.21.1",
+    "webpack-cli": "4.5.0",
+    "webpack-dev-server": "3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "node-sass": "^4.12.0",
+    "npm": "^7.5.2",
+    "react": "^17.0.1",
+    "react-datepicker": "3.4.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-scripts": "4.0.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  }
+}
